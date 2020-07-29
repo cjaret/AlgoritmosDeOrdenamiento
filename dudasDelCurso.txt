@@ -1,0 +1,11 @@
+Dudas técnicas del curso:
+
+1. Por qué despúes de print se coloca una coma?
+    print("%d"%array[i]),
+    print(datetime.now() - tiempoInicial),
+
+Reto:
+1. Cap. 5 (Implementación de Bubble Sort):
+    Agregar una condicional para que el bucle dentro de la función bubbleSort se rompa una vez no halla que hacer más comparaciones en el recorrido
+
+
