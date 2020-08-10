@@ -25,3 +25,5 @@ def selectionSort(array):
 selectionSort(array)
 for i in range(len(array)):
     print("%d" %array[i]),
+    
+#Complejidad Computacional: O(n^2)
