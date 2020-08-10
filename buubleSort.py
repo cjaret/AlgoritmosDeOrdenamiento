@@ -14,7 +14,7 @@ def bubbleSort(array):
             if array[j] > array [j+1]:
                 array[j], array[j+1] = array[j+1], array[j]
 
-array = [1,98,2,8,9,6,8,5,20,89,8,5,2,6,5,8]
+array = [1,98,2,8,9,6,8,5,20,89,8,9,8,5,6,8,7,4,5,245,52,5,2,5,,5,2,6,5,8]
 
 tiempoInicial = datetime.now()
 
@@ -24,3 +24,6 @@ for i in range(len(array)):
     print("%d"%array[i]),
 
 print(datetime.now() - tiempoInicial),
+
+
+#Complejidad Computacional: O(n^2)
